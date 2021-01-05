@@ -2,9 +2,11 @@ export default (req, res) => {
     res.statusCode = 200;
 
     res.json({
-        header: 'Your Custom Star Map',
-        content: 'Create a 18"x24" star map that shows the stars exactly as they were on a specific date and location with a personalized message!',
-        cta: 'Create Your Star Map',
-        src: '/images/hero.png'
+        header: 'Star Map Challenge',
+        message: 'Thank you for the Opportunity!',
+        content: 'January 05, 2021',
+        cta: 'San Diego, CA',
+        coords: '32.7157° N, 117.1611° W',
+        src: '/images/hero-2.png'
     });
 }
